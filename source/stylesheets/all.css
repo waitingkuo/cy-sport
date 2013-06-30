@@ -116,6 +116,10 @@
   text-align: right;
   color: #ffa500;
 }
+.contact-form-field-large {
+  height: 172px;
+  margin-bottom: 16px;
+}
 .contact-form-field-value {
   width: 568px;
   height: 100%;
@@ -131,6 +135,31 @@
 }
 .contact-form-field-value input:focus {
   outline: 0;
+}
+.contact-form-field-value textarea {
+  border: 0px solid #ffa500;
+  width: 100%;
+  height: 70%;
+  resize: none;
+  margin-top: 21px;
+}
+.contact-form-field-value textarea:focus {
+  outline: 0;
+}
+.contact-form-submit {
+  border: 3px solid #000;
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  width: 200px;
+  height: 66px;
+  margin-left: auto;
+  margin-right: auto;
+  text-align: center;
+  line-height: 66px;
+  font-size: 36px;
+}
+.contact-form-submit:hover {
+  cursor: pointer;
 }
 .footer {
   height: 30px;
