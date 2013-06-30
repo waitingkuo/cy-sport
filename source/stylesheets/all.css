@@ -80,6 +80,58 @@
 .whats-new-product + .whats-new-product {
   margin-left: 20px;
 }
+.contact-header {
+  background-color: #fff;
+  height: 70px;
+}
+.contact-header h1 {
+  padding: 0;
+  margin: 0;
+  line-height: 70px;
+}
+.contact-content {
+  height: 510px;
+  background-color: #ffa500;
+}
+.contact-form {
+  padding-top: 20px;
+  padding-left: 60px;
+  padding-right: 60px;
+}
+.contact-form-field {
+  -webkit-border-radius: 5px;
+  border-radius: 5px;
+  background-color: #fff;
+  width: 840px;
+  height: 66px;
+  margin-bottom: 6px;
+}
+.contact-form-field-name {
+  width: 252px;
+  height: 100%;
+  line-height: 66px;
+  display: inline-block;
+  vertical-align: top;
+  margin-right: -4px;
+  text-align: right;
+  color: #ffa500;
+}
+.contact-form-field-value {
+  width: 568px;
+  height: 100%;
+  display: inline-block;
+  vertical-align: top;
+  padding-left: 10px;
+}
+.contact-form-field-value input {
+  border: 0px solid #ffa500;
+  padding: 0px;
+  width: 100%;
+  height: 100%;
+}
+.contact-form-field-value input:focus {
+  outline: 0;
+}
 .footer {
   height: 30px;
   background-color: #000;
